@@ -5,12 +5,6 @@ import java.util.List;
 
 public class NumbersDissappearedinArray {
 
-	public static void main(String[] args) {
-		NumbersDissappearedinArray obj = new NumbersDissappearedinArray();
-		System.out.println(obj.findDisappearedNumbers(new int[] { 4, 3, 2, 7,
-				8, 2, 3, 1 }));
-	}
-
 	public List<Integer> findDisappearedNumbers(int[] nums) {
 
 		List<Integer> disappearedInts = new ArrayList<Integer>();
