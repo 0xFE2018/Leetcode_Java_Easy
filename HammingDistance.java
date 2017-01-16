@@ -2,11 +2,6 @@ package Easy;
 
 public class HammingDistance {
 
-	public static void main(String... args) {
-		HammingDistance obj= new HammingDistance();
-		System.out.println(obj.hammingDistance(3, 16));
-	}
-
 	public int hammingDistance(int x, int y) {
 		int[] binaryNum1 = convertToBinary(x);
 		int[] binaryNum2 = convertToBinary(y);
