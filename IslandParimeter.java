@@ -2,11 +2,6 @@ package Easy;
 
 public class IslandParimeter {
 
-	public static void main(String[] args) {
-		IslandParimeter obj = new IslandParimeter();
-		System.out.println(obj.islandPerimeter(new int[][] { { 1 }, { 0 } }));
-	}
-
 	public int islandPerimeter(int[][] grid) {
 		int numRows = grid.length;
 		int numCols = grid[0].length;
