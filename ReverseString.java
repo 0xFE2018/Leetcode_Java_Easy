@@ -2,11 +2,6 @@ package Easy;
 
 public class ReverseString {
 
-	public static void main(String... args) {
-		ReverseString obj = new ReverseString();
-		System.out.println(obj.reverseString("Hello"));
-	}
-
 	public String reverseString(String s) {
 	
 		char[] charArr = s.toCharArray();
