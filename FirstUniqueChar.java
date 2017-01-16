@@ -5,12 +5,6 @@ import java.util.Map;
 
 public class FirstUniqueChar {
 
-	public static void main(String[] args) {
-		FirstUniqueChar obj = new FirstUniqueChar();
-
-		System.out.println(obj.firstUniqChar("aadadaad"));
-	}
-
 	public int firstUniqChar(String s) {
 		char[] charArr = s.toCharArray();
 		Map<Character, Integer> map = new HashMap<Character, Integer>();
