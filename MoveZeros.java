@@ -2,15 +2,6 @@ package Easy;
 
 public class MoveZeros {
 
-	public static void main(String[] args) {
-		MoveZeros obj = new MoveZeros();
-		int[] nums = new int[] {1};
-		obj.moveZeroes(nums);
-		for (int num : nums) {
-			System.out.println(num);
-		}
-	}
-
 	public void moveZeroes(int[] nums) {
 		
 		int j = 0;
