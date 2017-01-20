@@ -1,16 +1,17 @@
 package com.leetcode.easy;
 
-public class ExcelColumnNumber {
-
-	public static void main(String[] args) {
-
-	}
-
+public class ExcelSheetColumnNumber {
 	public int titleToNumber(String s) {
       
+		char [] charArr= s.toCharArray();
+		int result=0;
+		for(int i=0;i<charArr.length;i++){
+			
+			result= result*26+((charArr[i]-'A')+1);
+			
+		}
 		
-		return 0;
+		return result;
 		
 	}
-
 }
