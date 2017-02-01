@@ -26,23 +26,4 @@ public class SymmetricTree {
 
 	}
 
-	public static void main(String... args) {
-
-		SymmetricTree obj = new SymmetricTree();
-		TreeNode root = new TreeNode(0);
-		TreeNode one = new TreeNode(1);
-		TreeNode two = new TreeNode(1);
-		TreeNode three = new TreeNode(3);
-		TreeNode four = new TreeNode(4);
-		TreeNode five = new TreeNode(4);
-		//TreeNode six = new TreeNode(5);
-		root.left = one;
-		root.right = two;
-		one.left = three;
-		one.right = four;
-		two.left = five;
-		//two.right = six;
-		System.out.println(obj.isSymmetric(root));
-	}
-
 }
