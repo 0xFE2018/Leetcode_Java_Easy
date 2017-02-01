@@ -39,13 +39,4 @@ public class PlusOne {
 		return nums;
 	}
 
-	public static void main(String... args) {
-		PlusOne obj = new PlusOne();
-		int[] nums = obj.plusOne(new int[] { 1, 0 });
-
-		for (int num : nums) {
-			System.out.println(num);
-		}
-	}
-
 }
