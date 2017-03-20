@@ -7,19 +7,6 @@ public class ImplementStackUsingQueue {
 
 	Queue<Integer> queue;
 
-	public static void main(String[] args) {
-		ImplementStackUsingQueue obj = new ImplementStackUsingQueue();
-		obj.push(1);
-		obj.push(2);
-		obj.push(3);
-		int param_2 = obj.pop();
-		int param_3 = obj.top();
-		boolean param_4 = obj.empty();
-		
-		System.out.println(param_2+"------------> "+param_3+"--------------> "+param_4);
-
-	}
-
 	/** Initialize your data structure here. */
 	public ImplementStackUsingQueue() {
 		queue = new LinkedList<Integer>();
